@@ -1,6 +1,6 @@
 class Plant:
     name : str
-    hight : int
+    hight : float
     age : int
     def show(pl) -> None:
         print(f"{pl.name}: {round(pl.hight , 1)}cm, {pl.age} days old")
