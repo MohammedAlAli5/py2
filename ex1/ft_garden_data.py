@@ -1,9 +1,12 @@
 class Plant:
-    name : str
-    hight : int
-    age : int
+    name: str
+    hight: int
+    age: int
+
     def show(pl) -> None:
         print(f"{pl.name}: {pl.hight}cm, {pl.age} days old")
+
+
 if __name__ == "__main__":
     rose = Plant()
     rose.name = "Rose"
