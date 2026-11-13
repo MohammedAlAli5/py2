@@ -20,6 +20,7 @@ if __name__ == "__main__":
     Cactus.name = "Cactus"
     Cactus.hight = 15
     Cactus.age = 120
+    print("=== Garden Plant Registry ===")
     rose.show()
     Sunflower.show()
     Cactus.show()
